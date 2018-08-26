@@ -1,0 +1,82 @@
+@import "vars"
+
+@media only screen and (max-width: 991px)
+  
+  .right-content__main
+    flex-direction: column
+  
+  .right-content__main .main-img
+    border-right: none
+
+@media only screen and (max-width: 768px)
+
+  .container .left-content
+    width: 150px
+
+  .container .right-content
+    width: calc(100% - 150px)
+
+  .right-content__main .main-info h2
+    font-size: 13px
+    margin-bottom: 25px
+
+  .container .right-content .caption h1
+    font-size: 15px
+
+  .right-content__main .main-info .option
+    flex-direction: column
+    align-items: center
+
+  .right-content__main .main-info .option .checkbox-wrap
+    margin-bottom: 20px
+
+  .pagination
+    flex-direction: column
+    align-items: center
+    .page
+      margin-bottom: 15px
+      margin-left: 10px
+      margin-right: 10px
+      width: 100%
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flex
+      display: -o-flex
+      display: flex
+      justify-content: space-between
+      align-items: center
+      li
+        font-size: 12px
+        margin-left: 0px
+        margin-right: 0px
+      .active
+        margin-right: 0
+      .text
+        margin: 0
+    p
+      margin-bottom: 15px
+
+  .container .right-content
+    padding-left: 10px
+    padding-right: 10px
+
+  .right-content__main .main-img
+    padding: 25px
+    img
+      width: 40%
+
+@media only screen and (max-width: 479px)
+
+  .right-content__main .main-img
+    padding: 10px
+    img
+      width: 100%
+
+  .container .left-content
+    width: 130px
+
+  .container .right-content
+    width: calc(100% - 130px)
+
+  .container .left-content p
+    font-size: 18px
